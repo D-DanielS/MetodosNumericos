@@ -1,15 +1,18 @@
 from f import f
 
-def sec(a,b,tol,it_max):
-  cont = 0
-  c = (a+b)/2
-  while(abs(f(c))>tol and cont < it_max):
-     c = b - ( (b-a) / ( f(b) - f(a) ) ) * f(b) 
-     a = b
-     b = c
-     cont += 1
-     print "Interaciones" , cont
-
-  return c
-impr = sec(4,0,0.001, 40)
-print impr
+x1 = float(raw_input('Introduce el valor de inicio x1: '))
+x0 = float(raw_input('Introduce el valor de inicio x0: '))
+erroru=float(raw_input('Introduce el error: '))
+raiz=[]
+raiz.insert(0,0)
+i = 0 
+error = 1
+while abs(error) > erroru:
+    x2 = x1 - ( f(x1) * (x1-x0) ) / ( f(x1) - f(x0) )
+    raiz.append(x2)
+    x0 = x1
+    x1 = x2
+    i += 1 
+    error=(raiz[i]-raiz[i-1])/raiz[i]
+    print "interaciones: " , i
+print "Raiz: ", x2

@@ -1,6 +1,7 @@
 import math
 
 def f(x):
-    return pow(x,3) - 9
+    y = pow(x,2) - 3.0*x - 4
+    return (y)
 
 
