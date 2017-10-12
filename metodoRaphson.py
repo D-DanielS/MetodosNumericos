@@ -13,7 +13,7 @@ raiz.insert(0,0)
 i=0
 error = 1
 while abs(error) > erroru:
-    x1=x-(f(x) / deri(x))
+    x1= x-(f(x) / deri(x))
     raiz.append(x1)
     i+= 1
     x = x1

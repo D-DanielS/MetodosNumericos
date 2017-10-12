@@ -4,7 +4,7 @@ xi = float(raw_input("Ingrese xi: "))
 xs = float(raw_input("Ingrese xs: "))
 error = float(raw_input("Ingrese error: "))
 
-xa = (xi - xs)/2.0
+xa = (xi + xs)/2.0
 i = 0
 itmax = 100
 
@@ -12,7 +12,7 @@ print("\n{:^10}{:^10}{:^10}{:^10}{:^10}{:^10}{:^10} ".format("i","xi","xs", "xa"
 
 while(abs( f(xa)) > error and i < itmax):
     i += 1
-    xa = (xi - xs)/2.0
+    xa = (xi + xs)/2.0
     if f(xi) * f(xa) < 0:
         xs = xa
         signo = "negativo"
