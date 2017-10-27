@@ -1,4 +1,5 @@
 import random
+n = int(input("Ingrese producto escalar: "))
 productoescalar = 0
 
 n = int(input("Ingrese n: "))
