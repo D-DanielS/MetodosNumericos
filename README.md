@@ -1,7 +1,13 @@
 # MetodosNumericos
-Metodos Numéricos En python
+Metodos Numéricos En python y java
 
 Integrantes 
 
-Nombre: Juan Jose Lizcano Tovar 
-Nombre: Rafael Manjarres
+Juan Jose Lizcano Tovar 
+Rafael Manjarres
+Carlos Diaz
+Stefany Palomar
+Pedro Pablo Paque 
+Jorge Enrrique Ramirez
+
+
