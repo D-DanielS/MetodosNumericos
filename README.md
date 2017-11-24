@@ -10,5 +10,6 @@ Metodos Numéricos En python
 1. Rafael Manjarres
 2. Carlos Diaz
 3. Stefany Palomar
+4. Pedro Pablo Paque
 
 
