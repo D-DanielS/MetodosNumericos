@@ -2,8 +2,8 @@
 
 
 Metodos Numéricos En python y java
-###Desarrollado por Juan Jose Lizcano Tovar
-###Juan Jose Lizcano Tovar
+### Desarrollado por Juan Jose Lizcano Tovar
+### Juan Jose Lizcano Tovar
 
 
 **Integrantes**
