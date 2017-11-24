@@ -5,7 +5,7 @@ def dydx(x, y):
     return y*np.sqrt(x) 
    
 #intervalos
-n = float(input('Ingrese Numero de Intervalos: '))
+n = int(input('Ingrese Numero de Intervalos: '))
 x0 = float(input('Ingrese Numero x0: '))
 xf = float(input('Ingrese Numero xf: '))
 y0 = 1  #punto inicial
