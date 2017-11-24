@@ -1,7 +1,7 @@
 # MetodosNumericos
 
 
-Metodos Numéricos En python y java
+Metodos Numéricos En python
 ### Desarrollado por Juan Jose Lizcano Tovar
 
 
