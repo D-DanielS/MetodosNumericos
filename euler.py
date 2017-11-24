@@ -4,12 +4,13 @@ import numpy as np
 def dydx(x, y):
     return y*np.sqrt(x) 
    
-
-n = 1050 #intervalos
-x0 = 0.0
-xf = 2.0
+#intervalos
+n = float(input('Ingrese Numero de Intervalos: '))
+x0 = float(input('Ingrese Numero x0: '))
+xf = float(input('Ingrese Numero xf: '))
 y0 = 1  #punto inicial
 
+#Consiste en dividir los intervalos que va de (x0) a (xf)  en (n)  subintervalos de ancho (h) osea: 
 h = (xf - x0) / n
 
 
