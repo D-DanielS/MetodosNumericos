@@ -13,3 +13,4 @@ Metodos Numéricos En python
 4. Pedro Pablo Paque
 
 
+![Euler](https://github.com/D-DanielS/MetodosNumericos/blob/master/ejercicio_euler.png "metodo de euler")
