@@ -12,5 +12,5 @@ Metodos Numéricos En python
 3. Stefany Palomar
 4. Pedro Pablo Paque
 
-
+### Ejercicio del Método de Euler
 ![Euler](https://github.com/D-DanielS/MetodosNumericos/blob/master/ejercicio_euler.png "metodo de euler")
